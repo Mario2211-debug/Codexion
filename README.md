@@ -1,5 +1,7 @@
 *This project has been created as part of the 42 curriculum by mafonso.*
 
+# Codexion
+
 ## Description
 
 **Codexion** is a concurrent programming simulation that models a group of coders sharing limited resources in a circular co-working hub. Each coder needs two USB dongles (left and right) to compile quantum code. The simulation demonstrates classic concurrency challenges: deadlock prevention, starvation avoidance, resource cooldown, and fair scheduling.
@@ -114,4 +116,3 @@ A separate thread periodically checks all coders instead of using condition vari
 
 ### Real-time vs CPU Time
 Using `gettimeofday()` for real-time measurements, as recommended by the subject for simplicity and compatibility.
-```
